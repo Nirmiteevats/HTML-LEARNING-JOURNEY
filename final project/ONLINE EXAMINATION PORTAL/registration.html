@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Student Registration - Online Examination Portal"
+    >
+
+    <title>Student Registration</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>📝 Student Registration</h1>
+
+        <nav>
+
+            <a href="index.html">Home</a> |
+            <a href="registration.html">Registration</a> |
+            <a href="instructions.html">Instructions</a> |
+            <a href="exam.html">Question Paper</a> |
+            <a href="result.html">Result</a>
+
+        </nav>
+
+    </header>
+
+    <hr>
+
+    <main>
+
+        <h2>Enter Your Details</h2>
+
+        <form action="instructions.html">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+                <label for="name">Full Name:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+                <label for="roll">Roll Number:</label>
+                <br>
+
+                <input
+                    type="text"
+                    id="roll"
+                    name="roll"
+                    placeholder="Enter roll number"
+                    required
+                >
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <br>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                    required
+                >
+
+                <br><br>
+
+                <label for="phone">Phone Number:</label>
+                <br>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter phone number"
+                >
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend>Academic Information</legend>
+
+                <label for="course">Course:</label>
+                <br>
+
+                <select id="course" name="course">
+
+                    <option value="">Select Course</option>
+                    <option value="btech">B.Tech</option>
+                    <option value="bca">BCA</option>
+                    <option value="mca">MCA</option>
+                    <option value="bsc">B.Sc</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="branch">Branch:</label>
+                <br>
+
+                <select id="branch" name="branch">
+
+                    <option value="">Select Branch</option>
+                    <option value="cse">Computer Science</option>
+                    <option value="csaiml">CS AI & ML</option>
+                    <option value="it">Information Technology</option>
+                    <option value="ece">Electronics</option>
+
+                </select>
+
+                <br><br>
+
+                <label for="semester">Semester:</label>
+                <br>
+
+                <select id="semester" name="semester">
+
+                    <option value="">Select Semester</option>
+                    <option value="1">1st</option>
+                    <option value="2">2nd</option>
+                    <option value="3">3rd</option>
+                    <option value="4">4th</option>
+                    <option value="5">5th</option>
+                    <option value="6">6th</option>
+                    <option value="7">7th</option>
+                    <option value="8">8th</option>
+
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+
+                <legend>Examination</legend>
+
+                <label for="exam">Select Examination:</label>
+                <br>
+
+                <select id="exam" name="exam">
+
+                    <option value="">Select Exam</option>
+                    <option value="html">HTML Examination</option>
+                    <option value="css">CSS Examination</option>
+                    <option value="javascript">
+                        JavaScript Examination
+                    </option>
+
+                </select>
+
+            </fieldset>
+
+            <br>
+
+            <input
+                type="checkbox"
+                id="declaration"
+                required
+            >
+
+            <label for="declaration">
+                I confirm that the information provided is correct.
+            </label>
+
+            <br><br>
+
+            <button type="submit">
+                Continue to Instructions →
+            </button>
+
+            <button type="reset">
+                Reset
+            </button>
+
+        </form>
+
+    </main>
+
+    <hr>
+
+    <footer>
+
+        <p>
+            &copy; 2026 Online Examination Portal
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
