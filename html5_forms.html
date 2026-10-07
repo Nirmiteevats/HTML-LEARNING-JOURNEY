@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+    <form action="/action.php">
+
+        <!-- Text Input -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <br><br>
+
+        <!-- Number -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+
+        <br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <!-- Time -->
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+
+        <br><br>
+        <hr>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Skills:</p>
+
+        <input type="checkbox" id="html" name="skills" value="html">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="css">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="javascript" name="skills" value="javascript">
+        <label for="javascript">JavaScript</label>
+
+        <br><br>
+        <hr>
+
+
+        <!-- Select -->
+        <h2>dropdown menu</h2>
+        <label for="course">Choose Course:</label>
+        <select id="course" name="course">
+
+            <option value="">Select a course</option>
+            <option value="cse">CSE</option>
+            <option value="csaiml">CSAI-ML</option>
+            <option value="it">IT</option>
+            <option value="ece">ECE</option>
+
+        </select>
+
+        <br><br>
+        <hr>
+
+
+        <!-- Textarea -->
+        <h2>text area</h2>
+        <label for="message">Message:</label>
+        <br>
+
+        <textarea id="message" name="message" rows="5" cols="40" placeholder="Write your message">
+        </textarea>
+        <br><br>
+        <hr>
+
+        <!-- File Upload -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume">
+
+        <br><br>
+
+        <!-- Color -->
+        <label for="color">Choose Color:</label>
+        <input type="color" id="color" name="color">
+
+        <br><br>
+
+        <!-- Range -->
+        <label for="experience">Experience:</label>
+        <input type="range" id="experience" name="experience" min="0" max="10" step="1">
+
+        <br><br>
+
+        <!-- URL -->
+        <label for="website">Portfolio URL:</label>
+        <input type="url" id="website" name="website" placeholder="https://example.com">
+
+        <br><br>
+
+        <!-- Hidden Input -->
+        <input type="hidden" name="form-type" value="student-registration">
+
+        <br>
+        <hr>
+        
+        <!-- buttons using input elements -->
+        <h2>buttons(using input elements)</h2>
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+        <!-- Reset -->
+        <input type="reset" value="Reset">
+
+        <!-- buttons using button elements -->
+        <h2>buttons(using button elements)</h2>
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+        <!-- Reset -->
+        <button type="reset">Reset</button>
+        <!-- button -->
+        <button type="button">Click Me</button>
+    </form>
+
+</body>
+</html>

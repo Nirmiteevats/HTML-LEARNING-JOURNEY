@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tables</title>
+</head>
+
+<body>
+    <h1>HTML Tables</h1>
+
+    <!-- Basic Table -->
+    <h2>Student Details</h2>
+    <table border="1">
+        <caption>Student Details</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+        </tr>
+
+        <tr>
+            <td>Nirmitee</td>
+            <td>21</td>
+            <td>CSAI-ML</td>
+        </tr>
+
+        <tr>
+            <td>Rahul</td>
+            <td>21</td>
+            <td>CSE</td>
+        </tr>
+
+        <tr>
+            <td>Priya</td>
+            <td>20</td>
+            <td>IT</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <!-- Student Result Table -->
+    <h2>Student Result(using table semantics)</h2>
+
+    <table border="1">
+        <caption>Student Result</caption>
+        <thead>
+            <tr>
+                <th>Roll No.</th>
+                <th>Name</th>
+                <th>HTML</th>
+                <th>CSS</th>
+                <th>JavaScript</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Nirmitee</td>
+                <td>90</td>
+                <td>88</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Rahul</td>
+                <td>82</td>
+                <td>80</td>
+                <td>84</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Average</td>
+                <td>86</td>
+                <td>84</td>
+                <td>84.5</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+
+    <!-- Colspan -->
+    <h2>Colspan Example</h2>
+
+    <table border="1">
+        <tr>
+            <th colspan="3">Student Information</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>Nirmitee</td>
+            <td>CSAI-ML</td>
+            <td>3rd</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <!-- Rowspan -->
+    <h2>Rowspan Example</h2>
+
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Nirmitee</td>
+            <td>DBMS</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>DAA</td>
+            <td>88</td>
+        </tr>
+    </table>
+
+</body>
+</html>
